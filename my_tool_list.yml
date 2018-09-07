@@ -46,3 +46,8 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tools:
 # Quantitative Proteo Transcriptomics
+- name: quant_proteo_transcriptome
+  owner: pravs
+  tool_panel_section_label: Quant Proteo Transcriptome
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
