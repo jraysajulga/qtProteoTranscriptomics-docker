@@ -1,1 +1,1 @@
-# qtProteoTranscriptomics-docker
+# Quantitative Proteo Transcriptomics Docker Demonstration
