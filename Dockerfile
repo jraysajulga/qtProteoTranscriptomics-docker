@@ -14,10 +14,10 @@ WORKDIR /galaxy-central
 ADD my_tool_list.yml $GALAXY_ROOT/tools.yaml
 
 # Installs the defined tools
-#RUN install-tools $GALAXY_ROOT/tools.yaml && \
-#    /tool_deps/_conda/bin/conda clean --tarballs --yes > /dev/null && \
-#    rm /export/galaxy-central/ -rf && \
-#    mkdir -p $GALAXY_HOME/workflows
+RUN install-tools $GALAXY_ROOT/tools.yaml && \
+    /tool_deps/_conda/bin/conda clean --tarballs --yes > /dev/null && \
+    rm /export/galaxy-central/ -rf && \
+    mkdir -p $GALAXY_HOME/workflows
 
 # Adds the yaml file containing the data library information
 #ADD library_data.yaml $GALAXY_ROOT/library_data.yaml
