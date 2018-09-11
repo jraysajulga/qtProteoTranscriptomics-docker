@@ -4,7 +4,7 @@
 
 FROM bgruening/galaxy-sequence-tools:17.09
 
-MAINTAINER Ray W. Sajulga Jr., jraysajulga@gmail.com
+MAINTAINER Ray W. Sajulga Jr., rsajulga@umn.edu
 
 ENV GALAXY_CONFIG_BRAND="[QuanTP Demo]"
 
