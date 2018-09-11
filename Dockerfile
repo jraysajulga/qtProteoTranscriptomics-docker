@@ -6,7 +6,7 @@ FROM bgruening/galaxy-sequence-tools:17.09
 
 MAINTAINER Ray W. Sajulga Jr., jraysajulga@gmail.com
 
-ENV GALAXY_CONFIG_BRAND="[QPT Demo]"
+ENV GALAXY_CONFIG_BRAND="[QuanTP Demo]"
 
 WORKDIR /galaxy-central
 
