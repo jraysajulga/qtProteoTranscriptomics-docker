@@ -5,7 +5,7 @@ libraries:
           file_type: tabular
         - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/protein_data.tabular
           file_type: tabular
-        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/transcript_Data.tabular
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/transcript_data.tabular
           file_type: tabular
     - name: "Mouse input files for QuanTP"
       files:
