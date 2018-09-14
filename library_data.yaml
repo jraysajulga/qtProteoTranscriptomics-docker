@@ -1,9 +1,15 @@
 libraries:
-    - name: "Input Files for Quantitative Proteo Transcriptomics"
+    - name: "Cow input files for QuanTP"
       files:
-        - url: https://zenodo.org/record/1412804/files/exp_design_file.tabular
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/exp_design_file.tabular
           file_type: tabular
-        - url: https://zenodo.org/record/1412804/files/protein_data.tabular
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/protein_data.tabular
           file_type: tabular
-        - url: https://zenodo.org/record/1412804/files/transcript_Data.tabular
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/transcript_Data.tabular
           file_type: tabular
+    - name: "Mouse input files for QuanTP"
+      files:
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/mouse/Protein_log_data.txt
+          file_type: txt
+        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/mouse/Transcript_log_data.txt
+          file_type: txt
