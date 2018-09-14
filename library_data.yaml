@@ -1,13 +1,13 @@
 libraries:
-    - name: "Cow input files for QuanTP"
+    - name: "QuanTP_cow_input"
       files:
-        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/exp_design_file.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/exp_design_file.tabular
           file_type: tabular
-        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/protein_data.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/protein_data.tabular
           file_type: tabular
-        - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/cow/transcript_data.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/transcript_data.tabular
           file_type: tabular
-    - name: "Mouse input files for QuanTP"
+    - name: "QuanTP_mouse_input"
       files:
         - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/mouse/Protein_log_data.txt
           file_type: txt
