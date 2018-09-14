@@ -10,17 +10,10 @@
     + PC: Press "Win-R", type "cmd" and press "Enter"
     + Linux: Ctrl + Alt + T
   - enter this command into your terminal:
-```
-docker run -d -p 8080:80 galaxyp/quantp
-```
-  - The QuanTP image will be downloaded from the Docker Hub and will initialize itself into a container. This will take a few minutes.
-
-
-2.) Open your terminal. Run the following command:
 ```sh
 docker run -d -p 8080:80 galaxyp/quantp
 ```
-The image will now download from the public repository [*galaxyp/quantp*](https://hub.docker.com/r/galaxyp/quantp/) on Docker Hub. This should take around 15 minutes to download.
+  - The QuanTP image will be downloaded from the public repository [*galaxyp/quantp*](https://hub.docker.com/r/galaxyp/quantp/) Docker Hub and will initialize itself into a container. This will take a few minutes.
 
 > In the meanwhile, feel free to take some time to understand the different components of this Docker command.
 
