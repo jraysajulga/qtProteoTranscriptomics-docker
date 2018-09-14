@@ -46,15 +46,18 @@ docker run -d -p 8080:80 galaxyp/quantp
   - Open the QuanTP tool by clicking on the Proteotranscriptomics category in the left tool pane and then the QuanTP tool.    
   - Choose your inputs as follows:
 
-Input Protein Abundance File : “...protein_data.tabular”
-Input RNA Abundance File : “...transcript_data.tabular”
-Select data type:
-Experiment design File : “...exp_design_file.tabular” 
-Data summarization method : “Mean”
-Multiple testing correction method : “Benjamini and Hochberg (BH)”
-Volcano plot with p-value or adjusted p-value : “P-value”
-Influential Observation cutoff : “4”
-K-mean clustering: Number of clusters : “4”
-Hierarchical clustering: Number of clusters (from Heatmap) : “5”
+| Parameter                    | Input                       |
+| -----------------------------| --------------------------- |
+| Input Protein Abundance File | “...protein_data.tabular”   |
+| Input RNA Abundance File     | “...transcript_data.tabular”|
+| Select data type             | <ul>
+<li>Experiment design File : “...exp_design_file.tabular” </li>
+<li>Data summarization method : “Mean”</li>
+<li>Multiple testing correction method : “Benjamini and Hochberg (BH)”</li>
+<li>Volcano plot with p-value or adjusted p-value : “P-value”</li>
+</ul>|
+| Influential Observation cutoff| “4” |
+|K-mean clustering: Number of clusters | “4” |
+|Hierarchical clustering: Number of clusters (from Heatmap) | “5” |
 
 - Once the tool  is executed, the output will show up on the active history pane. It will be displayed in yellow color while running and green once completed. The output of the tool is in the HTML format. To view this output, click on the eye icon .
