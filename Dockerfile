@@ -22,9 +22,6 @@ RUN install-tools $GALAXY_ROOT/tools.yaml && \
 # Adds the yaml file containing the data library information
 ADD library_data.yaml $GALAXY_ROOT/library_data.yaml
 
-# Adds the workflow to the docker image
-#ADD ./workflows/* $GALAXY_HOME/workflows/
-
 # Container Style
 # ADD homepage/welcome.html /export/
 
