@@ -1,6 +1,6 @@
 # Galaxy | Quantitative Proteo Transcriptomics Demonstration
 #
-# VERSION 0.1
+# VERSION 1.0
 
 FROM bgruening/galaxy-sequence-tools:17.09
 
