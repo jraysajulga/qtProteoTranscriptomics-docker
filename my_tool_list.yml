@@ -50,6 +50,6 @@ tools:
   owner: pravs
   revisions:
   - f13176aae9ad
-  tool_panel_section_label: Quant Proteo Transcriptome
+  tool_panel_section_label: QuanTP
   tool_shed_url: https://testtoolshed.g2.bx.psu.edu
 
