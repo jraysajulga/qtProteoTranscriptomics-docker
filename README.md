@@ -28,6 +28,8 @@ docker run -d -p 8080:80 galaxyp/quantp
 
   - Once the container is initialized, the terminal will output your container's ID.
  
+---
+ 
 3.) Access your initialized QuanTP Docker container at http://localhost:8080.
   - Register an account (Optional)
     + Registering allows for users to save their work, so feel free to do so if you plan on leaving Docker open for an extended period of time.
@@ -39,9 +41,11 @@ docker run -d -p 8080:80 galaxyp/quantp
     + In the resulting table, click the checkbox next to Cow input files for QuanTP
     + Click on to History at the top
       -Optional: Name your history (e.g., bovine_proteotranscriptomics)
-Hit Import
-To access your imported files, click on the resulting green pop-up box or the Galaxy logo in the top-left corner to go back to the main page.
-Open the QuanTP tool by clicking on the Proteotranscriptomics category in the left tool pane and then the QuanTP tool. Choose your inputs as follows:
+      -Hit Import
+    + To access your imported files, click on the resulting green pop-up box or the Galaxy logo in the top-left corner to go back to the main page.
+  - Open the QuanTP tool by clicking on the Proteotranscriptomics category in the left tool pane and then the QuanTP tool.    
+  - Choose your inputs as follows:
+
 Input Protein Abundance File : “...protein_data.tabular”
 Input RNA Abundance File : “...transcript_data.tabular”
 Select data type:
@@ -52,4 +56,5 @@ Volcano plot with p-value or adjusted p-value : “P-value”
 Influential Observation cutoff : “4”
 K-mean clustering: Number of clusters : “4”
 Hierarchical clustering: Number of clusters (from Heatmap) : “5”
-Once the tool  is executed, the output will show up on the active history pane. It will be displayed in yellow color while running and green once completed. The output of the tool is in the HTML format. To view this output, click on the eye icon .
+
+- Once the tool  is executed, the output will show up on the active history pane. It will be displayed in yellow color while running and green once completed. The output of the tool is in the HTML format. To view this output, click on the eye icon .
