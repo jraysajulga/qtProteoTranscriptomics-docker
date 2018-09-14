@@ -1,11 +1,11 @@
 libraries:
     - name: "QuanTP_cow_input"
       files:
-        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/exp_design_file.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tools-galaxyp/master/tools/quantp/test-data/exp_design_file.tabular
           file_type: tabular
-        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/protein_data.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tools-galaxyp/master/tools/quantp/test-data/protein_data.tabular
           file_type: tabular
-        - url: https://raw.githubusercontent.com/galaxyproteomics/tool-galaxyp/master/tools/quantp/test-data/transcript_data.tabular
+        - url: https://raw.githubusercontent.com/galaxyproteomics/tools-galaxyp/master/tools/quantp/test-data/transcript_data.tabular
           file_type: tabular
     - name: "QuanTP_mouse_input"
       files:
