@@ -30,4 +30,8 @@ ENV GALAXY_CONFIG_TOOL_PATH=/galaxy-central/tools/
 
 RUN startup_lite && \
     galaxy-wait && \
+    curl -sL https://github.com/jraysajulga/quanTPviewer/archive/master.tar.gz > docker.tar.gz && \
+    tar -xf docker.tar.gz quanTPviewer-master && \
+    cp -r quanTPviewer-master /galaxy-central/config/plugins/visualizations/quanTPviewer && \
+    rm -rf master.tar.gz rm quanTPviewer-master && \
     setup-data-libraries -i $GALAXY_ROOT/library_data.yaml -g http://localhost:8080 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
