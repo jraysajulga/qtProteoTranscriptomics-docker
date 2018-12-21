@@ -46,16 +46,10 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tools:
 # Quantitative Proteo Transcriptomics
-#- name: quantp
-#  owner: galaxyp
-#  revisions:
-#  - 75faf9a89f5b
-#  tool_panel_section_label: Proteotranscriptomics
-#  tool_shed_url: https://toolshed.g2.bx.psu.edu
 - name: quantp
-  owner: rsajulga
+  owner: galaxyp
   revisions:
-  - d0262069b37d
+  - bcc7a4c4cc29
   tool_panel_section_label: QuanTP
-  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
 
