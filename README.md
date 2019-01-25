@@ -60,3 +60,10 @@ docker run -d -p 8080:80 galaxyp/quantp
 | Hierarchical clustering: Number of clusters (from Heatmap) | “5” |
 
 - Once the tool  is executed, the output will show up on the active history pane. It will be displayed in yellow color while running and green once completed. The output of the tool is in the HTML format. To view this output, click on the eye icon .
+
+
+# Interactive Visualization
+
+- To convert the static plots into interactive Plotly visualizations:
++ click on the last dataset (HTML file), to expand for additional options. 
++ click on the chart icon and choose “Interactive Viewer”
