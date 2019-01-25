@@ -30,8 +30,11 @@ ENV GALAXY_CONFIG_TOOL_PATH=/galaxy-central/tools/
 
 RUN startup_lite && \
     galaxy-wait && \
-    curl -sL https://github.com/galaxyproteomics/tools-galaxyp/archive/master.tar.gz > docker.tar.gz && \
-    tar -xf docker.tar.gz tools-galaxyp-master && \
-    cp -r tools-galaxy-master/visualizations/interactiveviewer /galaxy-central/config/plugins/visualizations/interactiveviewer && \
+    #curl -sL https://github.com/galaxyproteomics/tools-galaxyp/archive/master.tar.gz > docker.tar.gz && \
+    curl -sL https://github.com/jraysajulga/interactiveviewer/archive/master.tar.gz > docker.tar.gz && \
+    #tar -xf docker.tar.gz tools-galaxyp-master && \
+    tar -xf docker.tar.gz interactiveviewer-master && \
+    #cp -r tools-galaxyp-master/visualizations/interactiveviewer /galaxy-central/config/plugins/visualizations/interactiveviewer && \
+    cp -r interactiveviewer-master /galaxy-central/config/plugins/visualizations/interactiveviewer && \
     rm -rf master.tar.gz rm tools-galaxyp-master && \
     setup-data-libraries -i $GALAXY_ROOT/library_data.yaml -g http://localhost:8080 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
