@@ -64,6 +64,6 @@ docker run -d -p 8080:80 galaxyp/quantp
 
 # Interactive Visualization
 
-- To convert the static plots into interactive Plotly visualizations:
-+ click on the last dataset (HTML file), to expand for additional options. 
-+ click on the chart icon and choose “Interactive Viewer”
+To convert the static plots into interactive Plotly visualizations:
+- click on the last dataset (HTML file), to expand for additional options. 
+- click on the chart icon and choose “Interactive Viewer”
