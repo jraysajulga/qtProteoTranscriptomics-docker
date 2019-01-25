@@ -10,6 +10,6 @@ libraries:
     - name: "QuanTP_mouse_input"
       files:
         - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/mouse/Protein_log_data.txt
-          file_type: txt
+          file_type: tabular
         - url: https://raw.githubusercontent.com/jraysajulga/quanTP-docker/master/inputs/mouse/Transcript_log_data.txt
-          file_type: txt
+          file_type: tabular
